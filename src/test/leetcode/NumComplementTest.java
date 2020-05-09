@@ -17,5 +17,6 @@ public class NumComplementTest {
   @Test
   public void findComplement() {
     System.out.println(NumComplement.findComplement(num));
+    System.out.println(NumComplement.findComplementEfficient(num));
   }
 }
